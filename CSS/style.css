@@ -85,11 +85,7 @@ img{
 .logo_bold{
     font-weight: 700;
 }
-.navegacion{
-    display: flex;
-    justify-content: space-between;
-    gap: 2rem;
-}
+
 .navegacion_enlace{
     display: block;
     text-align: center;
@@ -171,5 +167,17 @@ img{
     .boton{
         display: inline-block;
     }
-
+    .sobre-nosotros{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sobre-nosotros_imagen,
+    .sobre-nosotros_texto{
+        flex-basis: calc(50% - 2rem);
+    }
+    .navegacion{
+        display: flex;
+        justify-content: space-between;
+        flex-basis: calc(50% - 2rem);
+    }
 }
