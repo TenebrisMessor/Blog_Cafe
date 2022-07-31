@@ -147,7 +147,13 @@ img{
     margin-top: 4rem; 
     padding-bottom: 3rem;
 }
-
+.curso{
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--gris);
+}
+.curso:last-of-type{
+    border: none;
+}
 
 
 @media(min-width: 768px) {
@@ -179,5 +185,15 @@ img{
         display: flex;
         justify-content: space-between;
         flex-basis: calc(50% - 2rem);
+    }
+    .curso{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+        margin: 0 auto;
+      
+    }
+    h4{
+        margin: 0 auto;
     }
 }
